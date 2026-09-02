@@ -69,5 +69,3 @@ switch (bestmovie) {
 
 // Without break, the code continues from the matching case
 // and runs all cases below it.
-
-
