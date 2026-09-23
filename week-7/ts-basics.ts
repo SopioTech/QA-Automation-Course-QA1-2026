@@ -34,7 +34,7 @@ function greet (name: string, age: number) {
 greet("Alice", 50);
 
 function greetUser(user: string = "Default user"){
-    console.log(`Hey, I an $(user)!!!`);
+    console.log(`Hey, I an ${user}!!!`);
 }
 
 greetUser();
@@ -44,9 +44,9 @@ greetUser("Alex");
 
 function add(value1: number, value2: number): number {
     const sum = value1 + value2;
-    retur n [2];
+    return sum;
 }
 
 const myValue = add(2, 4);
-console.log(myvalue);
+console.log(myValue);
 
