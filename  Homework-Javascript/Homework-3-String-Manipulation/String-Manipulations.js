@@ -86,7 +86,24 @@ let greeting = `Hello, ${name1}!`;
 
 console.log (greeting);
 
+// multi-line stings
+
+let longSentance = `Hi, how are you?  
+                    how is your femaly doing?`;
+
+console.log(longSentance);
+
+// Expressions Inside Template Literals
+
+let number = 3;
+let number2 =4;
+
+console.log(`the sum of ${number} and ${number2} is ${number + number2}`);
+
+// Combining String Methods + Template Literals
+
+let animalName = "Bob";
+let age = 3;
 
 
-
-//
+console.log(`Animal is ${animalName.toUpperCase()}, his age is ${age}.`);
