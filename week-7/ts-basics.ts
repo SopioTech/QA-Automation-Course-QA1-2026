@@ -4,7 +4,7 @@ console.log (favoritefood);
 
 let age: number = 25;
 age = 39;
-console.log(age);
+console.log("age");
 
 let IsOnLine: Boolean = true;
 console.log(IsOnLine);
