@@ -27,5 +27,46 @@ console.log(wordCounter("Hello world"));
 
 // task 4 - brand checker
 
+function brandChecker (carBrands, brandName) {
+   if(carbrands.includes(brandName.toLowerCase())) { 
+       return " Brand exists";
+   } else { 
+    return "Brand not found";}
+   }
+
+   
+   let carBrands = ["bmw", "volvo", "toyota"];
+   console.log(brandChecker(carBrands, "bmw"));
+
+    
+  //task 5 Get last brand
+
+  function lastCarbrand (carBrands) {
+    return carBrands.at (-1);
+  } 
+ let carBrands2 = (["bmw", "toyota", "cadillac"]);
+  console.log (lastCarbrand(carBrands2));
+
+  //task 6 format brands list
+
+  function formatBrandsList( carBrands) {
+    return carBrands.join (", ");
+  } 
+   
+  let carBrands3 = ["bmw", "toyota", "Cadillac"];
+  console.log(formatBrandsList(carBrands3));  
+
+  // task 7 - safe rounding
+
+function safeRounding(number) {
+    
+    if (typeof number !== "number"){
+   return("invalid number");}
+   else {
+    return Math.round (number);}
+
+   };
+    console.log (safeRounding(5.7));
+    
 
 
