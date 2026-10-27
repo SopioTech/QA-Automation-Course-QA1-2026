@@ -1,6 +1,7 @@
 let fruits = ["apple", "banan", "berrys"];
 
-console.log(fruits[0]);
+console.log(fruits[0]); 
+console.log(fruits[2]);
 
 fruits[1] = "mango";
 console.log(fruits);
