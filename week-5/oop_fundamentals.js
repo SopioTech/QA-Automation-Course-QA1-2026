@@ -1,16 +1,31 @@
-class Person {
-  constructor(name, age) {
-    this.name = name;
-    this.age = age;
+// class Person {
+//   constructor(name, age) {
+//     this.name = name;
+//     this.age = age;
+//   }
+
+//   greet() {
+//     return `Hi! I am ${this.name}) and I am ${this.age} years old.`;
+//   }
+// }
+
+// const alice = new Person("Alice", 25);
+// console.log(alice.greet());
+
+// const bob = new Person("Bob", 27);
+// console.log(bob.greet());
+
+class Phone {
+  constructor(brand, model) {
+    this.brand = brand;
+    this.model = model;
   }
 
-  greet() {
-    return `Hi! I am ${this.name}) and I am ${this.age} years old.`;
+  describe() {
+    console.log(`This phone is a ${this.brand} ${this.model}`);
   }
 }
 
-const alice = new Person("Alice", 25);
-console.log(alice.greet());
+const iphone14 = new Phone("Apple", "Iphone 14");
 
-const bob = new Person("Bob", 27);
-console.log(bob.greet());
+const iphone15 = new Phone("Samsung", "galaxy");
