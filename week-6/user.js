@@ -1,7 +1,7 @@
 class User {
   static count = 0;
 
-  counstructor(name) {
+  constructor(name) {
     this.name = name;
     User.count++;
   }
@@ -12,6 +12,7 @@ class User {
 
 const user1 = new User("alice");
 const user2 = new User("bob");
+const user3 = new User("ann");
 
 //user1.displayCount();
 User.displayCount();
