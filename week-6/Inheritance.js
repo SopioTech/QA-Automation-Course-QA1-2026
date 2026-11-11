@@ -35,3 +35,7 @@ dog.sleep(); // Boggie is sleeping
 dog.eat(); // boogie is eating now;
 dog.introduce(); // Animal's name is boogie and he is 1 year old;
 dog.bark();
+
+const animal = new Animal("frog", 10, "voice");
+animal.sleep();
+animal.eat();
