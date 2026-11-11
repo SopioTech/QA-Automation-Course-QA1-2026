@@ -26,6 +26,29 @@ class Phone {
   }
 }
 
-const iphone14 = new Phone("Apple", "Iphone 14");
+const iphone14 = new Phone("Apple", "iphone14");
+iphone14.describe();
 
-const iphone15 = new Phone("Samsung", "galaxy");
+const samsugnGalaxy20 = new Phone("Samsung", "galaxy");
+samsugnGalaxy20.describe();
+
+class Car {
+  constructor(brand, color, speed) {
+    this.brand = brand;
+    this.color = color;
+    this.speed = speed;
+  }
+  accelerate(amount) {
+    this.speed += amount;
+    console.log(`${this.brand}) is now going at ${this.speed} km/h`);
+  }
+
+  brake(amount) {
+    this.speed -= amount;
+    console.log(`${this.brand} slowed down to ${this.speed} km/h`);
+  }
+}
+
+const myCar = new Car("Toyota", "red", 50);
+myCar.accelerate(20);
+myCar.brake(30);
